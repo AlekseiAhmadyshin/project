@@ -98,7 +98,10 @@ body {
     padding: 16px 0px;
 }
 
-
+.bot {
+    text-decoration: none;
+    color: black;
+}
 
 .citata {
     flex-direction: column;
@@ -172,7 +175,6 @@ body {
     width: 400px;
     margin-right: 10px;
     text-align: center;
-
 }
 
 .text__contacts {
@@ -186,6 +188,52 @@ body {
     align-content: center;
     text-align: center;
     margin-top: 225px;
+}
+
+.header__keis {
+    background-color: rgba(253, 174, 174, 0.5);
+    background-image: url(images/ЧТО\ МЫ\ МОЖЕМ.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: auto;
+}
+
+.text__keis {
+    max-width: 1200px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 31.25px;
+    line-height: 37px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 225px;
+}
+
+.text__keis__spisok {
+    max-width: 1200px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 31.25px;
+    line-height: 37px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: cente
+}
+
+.spisok {
+    display: flex;
+    align-content: space-between;
+
+
+}
+
+.culomn {
+    margin: 0 auto;
+    margin-top: 369px;
 }
 
 .text {
